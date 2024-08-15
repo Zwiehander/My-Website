@@ -12,13 +12,9 @@ main{
     width: auto;
     margin: 25px;
 }
-
-
 .wrapper-main{
-width: 1000px;
-margin: 0 auto;
-
-
+    width: 1000px;
+    margin: 0 auto;
 }
 h1{
     text-align: center;
@@ -45,7 +41,13 @@ p{
     align-items: center;
 
 }
+img{
+    image-rendering: optimizeQuality;
+    image-resolution: auto;
+    
 
+
+}
 .img_deg{
 float: left;
 
@@ -91,4 +93,14 @@ opacity: 0.9;
 }
 .navbar li{
     float: left;
+}
+
+
+@media (max-width:600px){
+
+    .wrapper-main{
+        width: 100%;
+        margin: 0 auto;
+    }
+
 }
