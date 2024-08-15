@@ -10,15 +10,20 @@ main{
     border-color: white;
     border-spacing: 5px;
     width: auto;
-    margin: 25px;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-bottom: 25px;
 }
 .wrapper-main{
     width: 1000px;
     margin: 0 auto;
 }
-.hans-image{
-    height: 947;
-    margin: 0 auto;
+.image-photos{
+    object-fit: cover;
+    width: 492px;
+    height: 492px;
+    
+
 }
 h1{
     text-align: center;
@@ -48,8 +53,6 @@ p{
 img{
     image-rendering: optimizeQuality;
     image-resolution: auto;
-    
-
 
 }
 .img_deg{
@@ -106,8 +109,5 @@ opacity: 0.9;
         width: 100%;
         margin: 0 auto;
     }
-    .hans-image{
-        width: 100%;
-        margin: 0 auto;
-    }
+
 }
