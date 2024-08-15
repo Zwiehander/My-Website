@@ -82,7 +82,7 @@ opacity: 0.9;
 .navbar a{
     color: white;
     text-decoration:none;
-    padding: 15px;
+    padding: 0px;
     display: block;
     text-align: center;
     font-family: "Cutive Mono";
