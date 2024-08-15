@@ -19,7 +19,6 @@ main{
     margin: 0 auto;
 }
 .image-photos{
-    object-fit: cover;
     width: 492px;
     height: 492px;
     
