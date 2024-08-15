@@ -50,7 +50,7 @@ p{
 
 }
 img{
-    image-rendering: optimizeQuality;
+    image-rendering: optimizeSpeed;
     image-resolution: auto;
 
 }
